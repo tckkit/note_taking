@@ -15,6 +15,8 @@ const path = require("path"); // OK
 const express = require("express"); // OK
 const app = express(); // OK
 
+//test
+
 // Set up your application, import the required packages
 const config = require("./stores/config.json")["development"]; // OK
 const AuthChallenger = require("./AuthChallenger"); // OK
